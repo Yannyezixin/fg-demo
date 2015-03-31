@@ -1,0 +1,95 @@
+body {
+    font-size: 100%;
+    background-image: url(../images/visual-communication.png);
+    background-attachment: fixed;
+}
+.container h1 > strong {
+    color: red;
+}
+
+.container h2 > em > strong {
+    color: blue;
+}
+
+.assel > .foo h2 + p {
+    color: red;
+}
+
+.pseudo-class a:link {
+    color: #f00;
+}
+.pseudo-class a:visited {
+    color: #0f00f0;
+}
+.pseudo-class a:hover {
+    color: #f33300;
+}
+.pseudo-class a:active {
+    color: #d00092;
+}
+
+div.before h1:before{
+    content:url(http://vtmer.github.io/dnf_web/asset/images/visual-communication.png);
+}
+
+#style p{
+    padding: 300px;
+    background-image: url(../images/visual-communication.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+}
+
+#text p{
+    text-indent: 5em;
+    text-align: justify;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+}
+
+#text .uppercase {
+    color: red;
+    text-transform: uppercase;
+}
+
+#text .lowercase {
+    text-transform: lowercase;
+}
+
+#text .capitalize {
+    text-transform: capitalize;
+}
+
+#text .decoration {
+    text-decoration: underline overline line-through;
+    white-space: nowrap;
+}
+
+#font p {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#font h1 {
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
+
+#demo a:link, a:visited {
+    display: block;
+    padding: 5px;
+    background-color: #98bf21;
+    text-decoration: none;
+    text-align: center;
+    font-style: bold;
+    font-size: 14px;
+    font-family: serif;
+    width: 120px;
+    color: #fff;
+}
+
+#demo a:hover, a:active {
+    background-color: #98bfff;
+}
