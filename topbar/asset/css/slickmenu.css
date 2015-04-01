@@ -53,8 +53,9 @@ ul li a {
     text-align: center;
     line-height:79px;
     position: relative;
-    background: -webkit-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
-    background: -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
+    background:rgb(69,69,69);
+    /*background: -webkit-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));*/
+    /*background: -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));*/
     -webkit-transition-property: background;
     -webkit-transition-duration: 700ms;
     -moz-transition-property: background;
@@ -72,4 +73,5 @@ ul li a:after {
     left: 0;
     width: 100%;
     height: 100%;
+    background: -webkit-linear-gradient(top, rgba(168,168,168,1), rgba(69,69,69,0.1));
 }
