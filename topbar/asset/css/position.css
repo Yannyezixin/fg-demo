@@ -1,8 +1,16 @@
 body {
+    color: #333;
     font-size: 100%;
     background: #e8e8e8;
     padding: 0;
+    padding-top: 44px;
     margin: 0;
+}
+section {
+    display: block;
+}
+footer {
+    display:block;
 }
 a {
     text-decoration: none;
@@ -17,6 +25,7 @@ ol, ul {
 
 .container {
     width: 100%;
+    overflow: auto;
 }
 
 #topbar {
@@ -25,6 +34,9 @@ ol, ul {
     background: #000;
     box-shadow: 0 0 2px #000;
     position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 #topbar .topbar_items {
@@ -117,3 +129,268 @@ ol, ul {
     background: #ddd;
 }
 
+.frontpage {
+    width: 100%;
+    margin: 40px auto 0 auto;
+    position: relative;
+    max-width: 1112px;
+    padding-bottom: 35px;
+}
+
+.headline {
+    float:left;
+    width: 49%;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headline p{
+    font-size: 1.5em;
+    position: absolute;
+    background: rgba(25, 105, 163, 0.8);
+    left: 0;
+    bottom: 0;
+    padding: 2% 13% 1.5% 6%;
+    color: #fff;
+    width: 81%;
+}
+
+.headline .goto{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 13%;
+    background: #1d2f5e;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hover-big {
+    height: 440px;
+    
+}
+
+.hover-right-top {
+    float:right;
+    height: 210px;
+}
+.hover-right-bottom {
+    margin-top:20px;
+    float:right;
+    height: 210px;
+}
+
+.refresh-btn {
+    color: #666;
+    padding: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.white {
+    position: relative;
+    background: white;
+}
+
+.white h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 50px 0 20px;
+}
+
+.headline p.c1 {
+    background-color: #561144;
+}
+.headline p.c2 {
+    background-color: #321156;
+}
+.headline p.c3 {
+    background-color: #114d56;
+}
+
+.headline p span {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.headlist {
+    max-width: 1160px;
+    margin:0 auto 50px;
+    width: 100%;
+    position:relative;
+    text-align: center;
+}
+.headlist .headline p{
+    position:relative;
+}
+.headlist li {
+    width: 31%;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    padding: 0 0.9%;
+}
+
+.headlist li a {
+    float:none;
+    width: 100%;
+    height: 0;
+    padding-top: 46%;
+}
+
+.list {
+    width: 100%;
+    max-width: 1160px;
+    margin: 20px auto 20px;
+}
+
+.mockup {
+    float: left;
+    margin: 20px 1.65%;
+    width: 30%;
+    height: 450px;
+    background: #fff;
+    border-radius: 2px;
+    overflow: hidden;
+    position:relative;
+    transition:all 0.2s ease;
+}
+
+.mockup:hover {
+    box-shadow: 0 0 15px #999;
+}
+
+.mockup a.topic-pic {
+    width: 100%;
+    display:block;
+    height: 174px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mockup > div {
+    margin: 15px 25px 10px;
+}
+
+.mockup > div .topic-info {
+    margin: 20px 0 0;
+}
+
+.mockup .title {
+    font-size: 1.2em;
+    color: #000;
+}
+
+.mockup .desc {
+    color: #666;
+}
+
+.mockup .topic-info .author{
+    display: inline-block;
+    position: relative;
+}
+
+.mockup .topic-info .author img{
+    vertical-align: middle;
+}
+.mockup .topic-info span{
+    vertical-align: middle;
+    position: relative;
+    font-size: 0.9em;
+    padding: 0 5px;
+    line-height: 26px;
+}
+
+.mockup .publish-time {
+    padding: 0 10px;
+    color: #999;
+}
+
+.mockup .operate {
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding: 0 0 10px;
+}
+
+.mockup .operate span.op{
+    cursor:pointer;
+    background: #f1f1f1;
+    border-radius: 16px;
+    color: #999;
+    padding:6px 10px;
+    margin: 0 4px;
+    transition:all 0.2s ease;
+}
+.mockup .operate span.op:hover{
+    color: #34b3db;
+}
+
+.load-more {
+    cursor: pointer;
+    width: 48%;
+    margin: 10px auto 30px;
+    background: #ddd;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border-radius: 3px;
+    color: #666;
+    transition:all 0.2s ease;
+}
+.load-more:hover {
+    background: #ccc;
+    color: #fff;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #ddd;
+    padding-bottom: 50px;
+}
+.footer .container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.footer .col {
+    float: left;
+    margin: 30px 40px;
+}
+
+.footer .col .footer-head {
+    font-size: 1em;
+    color: #333;
+}
+.footer .col ul{
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 10px;
+}
+.footer .col ul > li{
+    padding: 3px 0;
+}
+
+.right {
+    float: right;
+    margin: 30px 40px;
+    font-size: 0.7em;
+    line-height: 20px;
+    color: #888;
+}
+.right div {
+    margin: 10px 0;
+}
