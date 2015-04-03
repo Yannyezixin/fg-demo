@@ -37,6 +37,9 @@ section {
 .color-2 {
     background: #f06060;
 }
+.color-3 {
+    background: #ecf0f1;
+}
 
 .btn {
     border: none;
@@ -275,4 +278,95 @@ section {
 .btn-2e:active {
     top: 6px;
     box-shadow:none;
+}
+
+
+/*btn 3*/
+.perpective {
+    display: inline-block;
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    -moz-perspective: 800px;
+}
+.btn-3 {
+    color: #aaa;
+    display: block;
+    background: #fff;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+}
+
+.btn-3a:hover {
+    background: #aaa;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    -moz-transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -o-transform-origin: 50% 100%;
+    transform: rotateX(-90deg) translateY(100%);
+    -webkit-transform: rotateX(-90deg) translateY(100%);
+    -moz-transform: rotateX(-90deg) translateY(100%);
+    -o-transform: rotateX(-90deg) translateY(100%);
+    -ms-transform: rotateX(-90deg) translateY(100%);
+}
+
+.btn-3a:after {
+    position: absolute;
+    top:-100%;
+    left:0;
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+    content: "SUCCESS";
+    background: #7aca7c;
+    color: #358337;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+}
+
+.btn-3b:hover {
+    background: #aaa;
+    transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    transform: rotateX(90deg) translateY(-100%);
+    -webkit-transform: rotateX(90deg) translateY(-100%);
+    -moz-transform: rotateX(90deg) translateY(-100%);
+    -o-transform: rotateX(90deg) translateY(-100%);
+    -ms-transform: rotateX(90deg) translateY(-100%);
+}
+
+.btn-3b:after {
+    position: absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height: 100%;
+    line-height: 70px;
+    content: "ERROR";
+    background: #e96a6a;
+    color: #a33a3a;
+    transform-origin: 0 100%;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
 }
