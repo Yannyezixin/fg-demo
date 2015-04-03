@@ -1,0 +1,77 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.helix {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: #000;
+    animation: helix 1s ease-in 2s infinite alternate;
+    -moz-animation: helix 1s ease 2s infinite alternate;
+    -webkit-animation: helix 1s ease-in 2s infinite alternate;
+    -o-animation: helix 1s ease 2s infinite alternate;
+}
+
+@keyframes helix
+{
+    0% {background: #000; left: 0px; top: 0px;}
+    11% {background: #111; left: 200px; top: 0px;}
+    22% {background: #222; left: 200px; top: 200px;}
+    33% {background: #333; left: 0px; top: 200px;}
+    44% {background: #444; left: 0px; top: 50px;}
+    55% {background: #555; left: 150px; top: 50px;}
+    66% {background: #666; left: 150px; top: 150px;}
+    77% {background: #777; left: 50px; top: 150px;}
+    88% {background: #888; left: 50px; top: 100px;}
+    100% {background: #999; left: 100px; top: 100px;}
+}
+
+@-moz-keyframes helix
+{
+    0% {background: #000; left: 0px; top: 0px;}
+    11% {background: #111; left: 200px; top: 0px;}
+    22% {background: #222; left: 200px; top: 200px;}
+    33% {background: #333; left: 0px; top: 200px;}
+    44% {background: #444; left: 0px; top: 50px;}
+    55% {background: #555; left: 150px; top: 50px;}
+    66% {background: #666; left: 150px; top: 150px;}
+    77% {background: #777; left: 50px; top: 150px;}
+    88% {background: #888; left: 50px; top: 100px;}
+    100% {background: #999; left: 100px; top: 100px;}
+}
+
+@-webkit-keyframes helix
+{
+    0% {background: #000; left: 0px; top: 0px;}
+    11% {background: #111; left: 200px; top: 0px;}
+    22% {background: #222; left: 200px; top: 200px;}
+    33% {background: #333; left: 0px; top: 200px;}
+    44% {background: #444; left: 0px; top: 50px;}
+    55% {background: #555; left: 150px; top: 50px;}
+    66% {background: #666; left: 150px; top: 150px;}
+    77% {background: #777; left: 50px; top: 150px;}
+    88% {background: #888; left: 50px; top: 100px;}
+    100% {background: #999; left: 100px; top: 100px;}
+}
+
+@-o-keyframes helix
+{
+    0% {background: #000; left: 0px; top: 0px;}
+    11% {background: #111; left: 200px; top: 0px;}
+    22% {background: #222; left: 200px; top: 200px;}
+    33% {background: #333; left: 0px; top: 200px;}
+    44% {background: #444; left: 0px; top: 50px;}
+    55% {background: #555; left: 150px; top: 50px;}
+    66% {background: #666; left: 150px; top: 150px;}
+    77% {background: #777; left: 50px; top: 150px;}
+    88% {background: #888; left: 50px; top: 100px;}
+    100% {background: #999; left: 100px; top: 100px;}
+}
