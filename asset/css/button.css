@@ -40,6 +40,9 @@ section {
 .color-3 {
     background: #ecf0f1;
 }
+.color-4 {
+    background: #7986bc;
+}
 
 .btn {
     border: none;
@@ -62,7 +65,7 @@ section {
     display: inline-block;
 }
 
-.btn:after {
+.btn:after, .btn:before{
     content:'';
     position: absolute;
     z-index: -1;
@@ -70,6 +73,8 @@ section {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -369,4 +374,85 @@ section {
     -moz-transform: rotateX(-90deg);
     -ms-transform: rotateX(-90deg);
     -o-transform: rotateX(-90deg);
+}
+
+
+/*btn 4 */
+
+.btn-4 {
+    overflow: hidden;
+}
+
+.btn-4-round-1 {
+    border-radius: 40px;
+}
+.btn-4-round-2 {
+    border-radius: 10px;
+}
+.btn-4-round-3 {
+    border-radius: 0;
+}
+
+.btn-4a {
+    color: #7986cd;
+}
+
+.btn-4a:before , .btn-4a:after{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-4a:before {
+    border: 2px solid #fff;
+    border-radius: inherit;
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
+.btn-4a:hover:before {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+}
+
+.btn-4a:after {
+    background: #fff;
+    border-radius: inherit;
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+}
+.btn-4a:hover:after {
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
+
+.btn-4b {
+    color: #7986cd;
+}
+
+.btn-4b:before , .btn-4b:after{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.btn-4b:before {
+    border: 2px solid #fff;
+    border-radius: inherit;
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+}
+.btn-4b:hover:before {
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
+
+.btn-4b:after {
+    background: #fff;
+    border-radius: inherit;
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
+.btn-4b:hover:after {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
 }
