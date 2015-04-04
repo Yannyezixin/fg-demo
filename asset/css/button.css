@@ -420,6 +420,10 @@ section {
     transform: scale3d(1, 1, 1);
     -webkit-transform: scale3d(1, 1, 1);
 }
+.btn-4a:active:before {
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
 
 .btn-4a:after {
     background: #fff;
@@ -430,6 +434,10 @@ section {
 .btn-4a:hover:after {
     transform: scale3d(0.7, 0.7, 1);
     -webkit-transform: scale3d(0.7, 0.7, 1);
+}
+.btn-4a:active:after {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
 }
 
 .btn-4b {
@@ -452,6 +460,10 @@ section {
     transform: scale3d(0.7, 0.7, 1);
     -webkit-transform: scale3d(0.7, 0.7, 1);
 }
+.btn-4b:active:before {
+    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+}
 
 .btn-4b:after {
     background: #fff;
@@ -463,8 +475,10 @@ section {
     transform: scale3d(1, 1, 1);
     -webkit-transform: scale3d(1, 1, 1);
 }
-
-
+.btn-4b:active:after {
+    transform: scale3d(0.7, 0.7, 1);
+    -webkit-transform: scale3d(0.7, 0.7, 1);
+}
 /*btn 5*/
 
 @keyframes zoom-1
