@@ -613,8 +613,8 @@ section {
 }
 
 .btn-5a:hover {
-    animation: zoom-1 0.3s backwards;
-    -webkit-animation: zoom-1 0.3s backwards;
+    animation: zoom-1 0.3s;
+    -webkit-animation: zoom-1 0.3s;
     -moz-animation: zoom-1 0.3s;
     -ms-animation: zoom-1 0.3s;
 }
@@ -634,22 +634,25 @@ section {
     -ms-transform: scale3d(0.5, 0.5, 1);
 }
 
-/**
- * FIXME： active have no effect
- */
-.btn-5a:hover:after, .btn-5a:active:after {
+.btn-5a:hover:after {
     animation: zoom-2 0.3s 0.3s;
     -webkit-animation: zoom-2 0.3s 0.3s;
     -moz-animation: zoom-2 0.3s 0.3s;
     -ms-animation: zoom-2 0.3s 0.3s;
 }
 
+.btn-5a:active:after {
+    animation: zoom-1 0.3s;
+    -webkit-animation: zoom-1 0.3s;
+    -moz-animation: zoom-1 0.3s;
+    -ms-animation: zoom-1 0.3s;
+}
 
 .btn-5b:hover {
-    animation: zoom-1-anti 0.3s forwards;
-    -webkit-animation: zoom-1-anti 0.3s forwards;
-    -moz-animation: zoom-1-anti 0.3s forwards;
-    -ms-animation: zoom-1-anti 0.3s forwards;
+    animation: zoom-1-anti 0.3s;
+    -webkit-animation: zoom-1-anti 0.3s;
+    -moz-animation: zoom-1-anti 0.3s;
+    -ms-animation: zoom-1-anti 0.3s;
 }
 
 .btn-5b:after {
@@ -668,8 +671,15 @@ section {
 }
 
 .btn-5b:hover:after {
-    animation: zoom-2 0.3s 0.3s forwards;
-    -webkit-animation: zoom-2 0.3s 0.3s forwards;
-    -moz-animation: zoom-2 0.3s 0.3s forwards;
-    -ms-animation: zoom-2 0.3s 0.3s forwards;
+    animation: zoom-2 0.3s 0.3s;
+    -webkit-animation: zoom-2 0.3s 0.3s;
+    -moz-animation: zoom-2 0.3s 0.3s;
+    -ms-animation: zoom-2 0.3s 0.3s;
+}
+
+.btn-5b:active:after {
+    animation: zoom-1 0.3s;
+    -webkit-animation: zoom-1 0.3s;
+    -moz-animation: zoom-1 0.3s;
+    -ms-animation: zoom-1 0.3s;
 }
