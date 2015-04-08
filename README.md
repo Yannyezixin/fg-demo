@@ -16,3 +16,4 @@
 
 ### 弹出层
 [简易弹出](http://youbookee.com/fg-demo/modal/modal.html)
+[渐入渐出](http://youbookee.com/fg-demo/modal/modal2.html)

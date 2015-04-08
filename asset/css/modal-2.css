@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    font-size: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0 0 0;
+}
+
+.show-vlayer {
+    border:none;
+    cursor: pointer;
+    font-family: inherit;
+    display: block;
+    text-align: center;
+    width: 150px;
+    margin: 20px auto;
+    background: #aaa;
+    padding: 15px;
+    color: #fff;
+    border-radius: 40px;
+    outline: none;
+}
+
+.vlayer {
+    display: none;
+    font-family: inherit;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s 0s;
+    -webkit-transition: opacity ease 0.3s 0s;
+}
+
+.vlayer.in{
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.vlayer .vcontainer {
+    z-index: 102;
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto 0;
+    box-shadow: 0 0 10px #aaa;
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+    -webkit-transition: transform 0.3s 0s;
+    transition: transform 0.3s 0s;
+}
+
+.vlayer.in .vcontainer {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: transform 0.3s 0s;
+    transition: transform 0.3s 0s;
+}
+
+.vlayer .vc {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14;
+    font-weight: 700;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
+
+.vlayer .vheader {
+    position: relative;
+    border-bottom: 1px solid #aaa;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.vlayer .vcontent {
+    position: relative;
+    padding: 10px;
+}
+
+.vlayer .op {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.vlayer .op .confirm,
+.vlayer .op .cancel {
+    float: left;
+    text-decoration: none;
+    width: 50%;
+    border:none;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.vlayer .op .confirm{
+    background: #fc7169;
+}
+
+.vlayer .op .cancel{
+    background: #b6bece;
+}
+
+.vlayer .op .confirm:hover {
+    background: #fc908a;
+}
+
+.vlayer .op .cancel:hover{
+    background: #c7c9cb;
+}
