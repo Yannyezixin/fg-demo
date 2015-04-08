@@ -57,6 +57,9 @@ section {
 .color-8 {
     background: #695181;
 }
+.color-9 {
+    background: #293181;
+}
 
 .btn {
     border: none;
@@ -981,5 +984,16 @@ section {
     51% {
         opacity: 1;
     }
+}
+
+
+/* btn 9 */
+.btn-9 {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.btn-9a:hover i {
+    -webkit-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
 }
 
