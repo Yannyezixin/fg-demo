@@ -54,6 +54,9 @@ section {
 .color-7 {
     background: #985181;
 }
+.color-8 {
+    background: #695181;
+}
 
 .btn {
     border: none;
@@ -779,3 +782,204 @@ section {
         transform: rotate(360deg);
     }
 }
+
+/* btn 8 */
+.btn-8 {
+    overflow: hidden;
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.btn-8a:hover ,
+.btn-8b:hover ,
+.btn-8c:hover ,
+.btn-8d:hover
+{
+    background: #fff;
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
+    color: #695181;
+}
+
+.btn-8a:hover i{
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    -o-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}
+
+.btn-8b:hover i{
+    -webkit-animation: toLeftFromRight 0.3s forwards;
+    -moz-animation: toLeftFromRight 0.3s forwards;
+    -o-animation: toLeftFromRight 0.3s forwards;
+    animation: toLeftFromRight 0.3s forwards;
+}
+
+.btn-8c:hover i{
+    -webkit-animation: toTopFromBottom 0.3s forwards;
+    -moz-animation: toTopFromBottom 0.3s forwards;
+    -o-animation: toTopFromBottom 0.3s forwards;
+    animation: toTopFromBottom 0.3s forwards;
+}
+
+.btn-8d:hover i{
+    -webkit-animation: toBottomFromTop 0.3s forwards;
+    -moz-animation: toBottomFromTop 0.3s forwards;
+    -o-animation: toBottomFromTop 0.3s forwards;
+    animation: toBottomFromTop 0.3s forwards;
+}
+
+@-webkit-keyframes toRightFromLeft {
+    49% {
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes toRightFromLeft {
+    49% {
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes toRightFromLeft {
+    49% {
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes toLeftFromRight {
+    49% {
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes toLeftFromRight{
+    49% {
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes toLeftFromRight{
+    49% {
+        transform: translateX(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes toTopFromBottom {
+    49% {
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes toLeftFromRight{
+    49% {
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes toLeftFromRight{
+    49% {
+        transform: translateY(-100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes toBottomFromTop {
+    49% {
+        transform: translateY(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@keyframes toBottomFromTop {
+    49% {
+        transform: translateY(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes toBottomFromTop {
+    49% {
+        transform: translateY(100%);
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
