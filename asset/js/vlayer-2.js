@@ -20,7 +20,7 @@ $(document).ready(function () {
         target = $(this).parents('.vlayer');
         target.removeClass("in");
         target.one("transitionend webkitTransitionend oTransitionend", function () {
-            target.toggle();
+            target.hide();
         });
         $(document).off('keyup');
     });
