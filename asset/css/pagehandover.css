@@ -1,3 +1,5 @@
+@import url('../fonts/font-awesome-4.3.0/css/font-awesome.css');
+
 * {
     padding: 0;
     margin: 0;
@@ -13,6 +15,18 @@ body {
 
 section {
     display: block;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -48,6 +62,92 @@ section {
 .s5 {
     top: -500%;
 }
+
+/* nav */
+
+
+.nav-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    background: -webkit-linear-gradient(top, rgba(0,0,0, 0.1) -5%, rgba(0,0,0, 0) 100%);
+}
+
+#nav {
+    line-height: 76px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#logo {
+    float: left;
+    color: #eee;
+    line-height: inherit;
+}
+
+.logo {
+    letter-spacing: 3px;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.topbar_items{
+    line-height: inherit;
+    position: relative;
+    text-align: right;
+    height: 76px;
+}
+
+#topbar_main {
+    float: right;
+}
+
+.topbar_items > li {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.topbar_items > li a {
+    display: block;
+    height: 76px;
+    position: relative;
+    padding: 20px 20px;
+    overflow: hidden;
+    color: inherit;
+    vertical-align: middle;
+}
+
+.topbar_items li a:hover span{
+    opacity: 0;
+    margin-top: -50px;
+}
+
+.topbar_items li a:hover .nav-icon{
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.topbar_items li a span{
+    display: block;
+    line-height: 36px;
+    vertical-align: middle;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.topbar_items .nav-icon {
+    margin-top: 40px;
+}
+
+/* end of nav */
 
 .section {
     position: relative;
