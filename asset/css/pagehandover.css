@@ -277,10 +277,14 @@ a {
 /* page 2 */
 .pro-item {
     display: none;
+    transform: scale(2, 2);
+    opacity: 0;
 }
 
 .pro-item.active {
     display: block;
+    transform: scale(1, 1);
+    opacity: 1;
 }
 
 .pro-item .pro {
