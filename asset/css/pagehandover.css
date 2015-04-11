@@ -11,6 +11,12 @@
     transition: all 0.3s;
 }
 
+*:before, *:after {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 body {
     font-family: Arial;
     height: 100%;
@@ -96,6 +102,7 @@ a {
     float: left;
     color: #eee;
     line-height: inherit;
+    padding: 0 20px;
 }
 
 .logo {
@@ -197,6 +204,7 @@ a {
     width: 100%;
     margin: 0 auto;
     color: #fff;
+    padding: 10px;
 }
 
 .chead h1{
@@ -214,7 +222,6 @@ a {
 .chead .solgan {
     font-size: 1.3em;
     text-align: center;
-    color: #7e0000;
 }
 
 .content .pannel {
@@ -257,6 +264,14 @@ a {
 
 .color-3 {
     background: #c54a4a;
+}
+
+.f-color-1 {
+    color: rgb(26,75,153) !important;
+}
+
+.f-color-2 {
+    color: #7e0000 !important;
 }
 
 
@@ -379,4 +394,119 @@ a {
 
 .right.handover-control {
     right: 0;
+}
+
+/* page 3 */
+.us-team {
+    width: 900px;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+    left: 68px;
+    top: 0;
+    min-height: 360px;
+    max-height: 360px;
+}
+
+.us.x1 {
+    height: 100px;
+    width: 100px;
+}
+
+.us.x1-5 {
+    height: 150px;
+    width: 150px;
+}
+
+.us.x2 {
+    height: 200px;
+    width: 200px;
+}
+
+.us {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    overflow: hidden;
+    background-position: center;
+}
+
+.us .us-content {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.us .us-content > div {
+    height: 100%;
+    transform: rotate(-45deg);
+}
+
+.us .us-content > div > div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.us:hover .us-content {
+    opacity: 1;
+}
+
+.nro {
+    transform: none;
+    background: #fff;
+}
+
+.us img {
+    transform: rotate(-45deg) translateY(-21%);
+    height: 142%;
+    width: 143%;
+}
+
+.us.s1 {
+    margin-left: 10%;
+}
+
+.us.s2 {
+    margin-left: 23%;
+}
+
+.us.s3 {
+    margin-left: 52%;
+    margin-top: 5%;
+}
+
+.us.s4 {
+    margin-left: 63%;
+}
+
+.us.s5 {
+    margin-top: 13.6%;
+    margin-left: 12.6%;
+}
+
+.us.s6 {
+    margin-top: 14.8%;
+    margin-left: 41.75%;
+}
+
+.us.s7 {
+    margin-top: 13%;
+    margin-left: 59.9%;
+}
+
+.us.s8 {
+    margin-top: 21.48%;
+    margin-left: 20.43%;
+}
+
+.us.s9 {
+    margin-top: 26.8%;
+    margin-left: 29.83%;
 }
