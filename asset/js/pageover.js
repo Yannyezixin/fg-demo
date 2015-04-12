@@ -11,7 +11,7 @@ $(document).ready(function () {
         });
 
         $('body').on('keydown', function (event) {
-            if (!$('.animating')[0]) {
+            if (!$('.animating')[0] && (event.which == 40 || event.which == 38)) {
                 if (event.which == 40) {
                     nextSide = (curSide + 1 ) % slens;
                 } else if (event.which == 38){
