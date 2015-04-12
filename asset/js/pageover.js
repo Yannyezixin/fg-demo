@@ -4,17 +4,35 @@ $(document).ready(function () {
         curSide = 0;
         $('body').on('mousewheel', function (event, delta) {
             if (!$('.animating')[0]) {
-                container = $('.container');
-                container.removeClass('s'+curSide);
-                curSide = delta < 0 ? (curSide + 1) % slens : (curSide - 1 + slens) % slens;
-                child = container.children().eq(curSide);
-                child.addClass('animating');
-                container.addClass('s'+curSide);
-                container.one('transitionend webkitTransitionend', function () {
-                    child.removeClass('animating');
-                });
+                nextSide = delta < 0 ? (curSide + 1) % slens : (curSide - 1 + slens) % slens;
+                pageover(curSide, nextSide);
+                curSide = nextSide
             }
         });
+
+        $('body').on('keydown', function (event) {
+            if (!$('.animating')[0]) {
+                if (event.which == 40) {
+                    nextSide = (curSide + 1 ) % slens;
+                } else if (event.which == 38){
+                    nextSide = (curSide - 1 + slens) % slens;
+                }
+                pageover(curSide, nextSide);
+
+                curSide = nextSide
+            }
+        });
+
+        pageover = function (cur, next) {
+            container = $('.container');
+            container.removeClass('s'+cur);
+            child = container.children().eq(next);
+            child.addClass('animating');
+            container.addClass('s'+next);
+            container.one('transitionend webkitTransitionend', function () {
+                child.removeClass('animating');
+            });
+        }
     } ());
 
     genLevelIndex = function (item) {
