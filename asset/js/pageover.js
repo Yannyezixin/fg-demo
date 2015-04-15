@@ -93,4 +93,20 @@ $(document).ready(function () {
         });
     }
 
+    $('.coo').hover(function () {
+        $(this).children().stop(false, true);
+        $(this).children('.coo-back').fadeIn('slow');
+        $(this).children('.coo-logo').animate({right: '-100%'}, 400);
+        $(this).children('.coo-logo-left').animate({left: '0%'}, 400);
+        $(this).children('.coo-msg').animate({left: '-100%'}, 400);
+        $(this).children('.coo-msg-left').animate({right: '0%'}, 400);
+    }, function () {
+        $(this).children().stop(false, true);
+        $(this).children('.coo-back').fadeOut('slow');
+        $(this).children('.coo-logo').animate({right: '0%'}, 400);
+        $(this).children('.coo-logo-left').animate({left: '-100%'}, 400);
+        $(this).children('.coo-msg').animate({left: '0%'}, 400);
+        $(this).children('.coo-msg-left').animate({right: '-100%'}, 400);
+    });
+
 });
