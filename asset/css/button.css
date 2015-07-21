@@ -60,6 +60,9 @@ section {
 .color-9 {
     background: #293181;
 }
+.color-10 {
+    background: #cfd759;
+}
 
 .btn {
     border: none;
@@ -997,3 +1000,263 @@ section {
     animation: spinAround 2s linear infinite;
 }
 
+
+/* btn 10 */
+@keyframes shadowSpinAround {
+    0% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+
+@-moz-keyframes shadowSpinAround {
+    0% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes IshadowSpinAround {
+    0% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+
+@-moz-keyframes IshadowSpinAround {
+    0% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes UDshadowSpinAround {
+    0% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    6.25% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    18.75% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    31.25% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    42.75% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    56.25% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    68.75% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    81.25% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    92.75% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 -10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes DUshadowSpinAround {
+    0% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    6.25% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    12.5% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    18.75% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    25% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    31.25% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    37.5% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    42.75% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    50% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+    56.25% {
+        box-shadow: -7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    62.5% {
+        box-shadow: -10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    68.75% {
+        box-shadow: -7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    75% {
+        box-shadow: 0 -10px 0 4px rgba(255, 255, 255, 1);
+    }
+    81.25% {
+        box-shadow: 7.5px -7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    87.5% {
+        box-shadow: 10px 0 1px 4px rgba(255, 255, 255, 1);
+    }
+    92.75% {
+        box-shadow: 7.5px 7.5px 1px 4px rgba(255, 255, 255, 1);
+    }
+    100% {
+        box-shadow: 0 10px 1px 4px rgba(255, 255, 255, 1);
+    }
+}
+.btn-10 {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.btn-10a:hover {
+    -webkit-animation: shadowSpinAround 1s linear infinite;
+    -moz-animation: shadowSpinAround 1s linear infinite;
+    -o-animation: shadowSpinAround 1s linear infinite;
+    animation: shadowSpinAround 1s linear infinite;
+}
+
+.btn-10b:hover {
+    -webkit-animation: IshadowSpinAround 1s linear infinite;
+    -moz-animation: IshadowSpinAround 1s linear infinite;
+    -o-animation: IshadowSpinAround 1s linear infinite;
+    animation: IshadowSpinAround 1s linear infinite;
+}
+
+.btn-10c:hover {
+    -webkit-animation: UDshadowSpinAround 2s linear infinite;
+    -moz-animation: UDshadowSpinAround 2s linear infinite;
+    -o-animation: UDshadowSpinAround 2s linear infinite;
+    animation: UDshadowSpinAround 2s linear infinite;
+}
+
+.btn-10d:hover {
+    -webkit-animation: DUshadowSpinAround 2s linear infinite;
+    -moz-animation: DUshadowSpinAround 2s linear infinite;
+    -o-animation: DUshadowSpinAround 2s linear infinite;
+    animation: DUshadowSpinAround 2s linear infinite;
+}
