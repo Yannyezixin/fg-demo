@@ -4,6 +4,7 @@
 ### 布局
 
 [布局](http://youbookee.com/fg-demo/position.html)
+[Flex布局](http://youbookee.com/fg-demo/flex.html)
 
 ### 按钮
 
